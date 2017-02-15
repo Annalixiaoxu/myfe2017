@@ -1,0 +1,12 @@
+/*样式重置开始*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*样式重置结束*/
