@@ -1,0 +1,107 @@
+/*样式重置开始*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*样式重置结束*/
+
+/*通用样式开始*/
+body{
+    position: relative;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -200px;
+}
+/*通用样式结束*/
+
+/*HOME开始*/
+#HOME{
+    width: 100%;
+    height: 555px;
+    position: absolute;
+}
+.class{
+    height: 30px;
+    width: 400px;
+}
+#img1{
+    height: 555px;
+    width: 100%;
+}
+h1{
+    margin: 5px;
+    height: 50px;
+    width: 400px;
+}
+
+/*HOME结束*/
+
+/*menu开始*/
+#menu{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background: #ff9933;
+    left: 0;
+    top: 545px;
+}
+#main{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ff0000;
+}
+#main li{
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+#main li a{
+    color: #fff;
+    font-size: 15px;
+}
+#menu span{
+    margin: 4px 10px 0 10px;
+}
+/*menu结束*/
+
+/*SERVICES开始*/
+#SERVICES{
+    height: 500px;
+    width: 100%;
+    background: #cdf;
+    position: absolute;
+    top: 595px;
+}
+#container1{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+#SERVICES #li1{
+    font-size: 20px;
+    color: #ffffff;
+}
+#SERVICES #li2{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/*SERVICES结束*/
