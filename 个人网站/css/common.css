@@ -22,6 +22,7 @@ body{
     margin-top: -60px;
     margin-left: -200px;
 }
+
 /*通用样式结束*/
 
 /*HOME开始*/
@@ -30,18 +31,19 @@ body{
     height: 555px;
     position: absolute;
 }
-.class{
-    height: 30px;
-    width: 400px;
-}
-#img1{
-    height: 555px;
+#HOME img{
     width: 100%;
 }
-h1{
-    margin: 5px;
-    height: 50px;
-    width: 400px;
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+
+    width: 500px;
+    background: pink;
+    text-align: center;
+    line-height: 40px;
 }
 
 /*HOME结束*/
@@ -52,8 +54,7 @@ h1{
     width: 100%;
     position: absolute;
     background: #ff9933;
-    left: 0;
-    top: 545px;
+    margin-top: 555px;
 }
 #main{
     width: 500px;
@@ -84,7 +85,7 @@ h1{
     width: 100%;
     background: #cdf;
     position: absolute;
-    top: 595px;
+    top: 605px;
 }
 #container1{
     width: 400px;
