@@ -160,10 +160,12 @@ body{
 }
 #star-card{
     -webkit-box-flex: 1;
+    position: absolute;
 }
-#star-card p{
-    margin-left: 250px;
-    margin-top: 70px;
+#star-card #p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
     font-size: 20px;
 }
 #star-club{
