@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://D:/cc/src/app/app.component.ts" charset="UTF-8" />
+    <file url="file://D:/dd/ww/src/app/app.component.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/星巴克官网/首页/css/index.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/星巴克官网/首页/css/style.css" charset="UTF-8" />
   </component>
